@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 100%;
+    background-color: rgb(252, 236, 99);
+}
+
+nav{
+    background-color: rgb(255, 237, 72);
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+.tit{
+    display: flex;
+    justify-content: flex-start;
+}
+.insta{
+    display: flex;
+    justify-content: flex-end;
+}
+
+header{
+    padding: 10px;
+    background-color: rgb(160, 195, 248);
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo{
+    font-family: 'Roboto', sans-serif;
+    font-size: 34px;
+}
+.subtitulo{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 30px;
+    padding: 15px;
+    background-color: white;
+    margin: 10px;
+    width: 1000px;
+}
+.texto-subtitulo{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+.descricao{
+    font-size: 18px;
+    font-family: 'Poiret One', cursive;
+    font-weight: 100;
+}
+
+#img-tbbt{
+    height: 350px;
+    box-shadow: 5px 4px 5px rgba(0, 0, 0, 0.25);
+}
+#img-m{
+    height: 328px;
+    box-shadow: 5px 4px 5px rgba(0, 0, 0, 0.25);
+}
+#img-b99{
+    height: 375px;
+    box-shadow: 5px 4px 5px rgba(0, 0, 0, 0.25);
+}
+#img-st{
+    height: 350px;
+    box-shadow: 5px 4px 5px rgba(0, 0, 0, 0.25);
+}
+#img-tgd{
+    height: 330px;
+    box-shadow: 5px 4px 5px rgba(0, 0, 0, 0.25);
+}
+
+
+.coluna{
+     float: right;
+     margin-right: 40px;
+     position: fixed;
+     top: 150px;
+     right: 0;
+     background-color: white;
+     padding: 25px;
+     font-size: 19px;
+}
+
+.text{
+    font-family: 'Bebas Neue', cursive;
+    align-items: baseline;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#img-icon{
+    height: 30px;
+}
+.titulo-col{
+    font-family: 'Bebas Neue', cursive;
+}
